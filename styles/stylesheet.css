@@ -1,0 +1,124 @@
+/*CSS reset*/
+aside, article, section, header, footer, nav, html, body, div, h1, h2, h3, p, ul, li a {
+	padding: 0;
+	margin: 0;
+}
+
+/*layout styles*/
+html {
+	background: rgb(255, 255, 255);
+}
+
+body {
+	width: 86%;
+	margin: 15px auto;
+	padding: 25px 20px 20px 20px;
+	box-shadow: 0px 0.3em 1em #000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header div {
+	padding: 40px 0 72px 20px;
+	background: rgb(193, 224, 87);
+}
+
+#main-nav {
+	padding: 15px 0;
+}
+
+.left-side-bar {
+	width: 20%;
+	float: left;
+	margin-right: 20px;
+	background: rgb(87, 223, 221);
+	margin-bottom: 20px;
+}
+
+.left-bottom-box {
+	width: 20%;
+	height: 200px;
+	margin-right: 20px;
+	background: rgb(87, 190, 223);
+	float: left;
+}
+
+.right-col {
+	float: right;
+	width: 78%;
+}
+
+footer {
+	width: 78%;
+	height: 51px;
+	background: rgb(174, 175, 177);
+	float: right;
+	margin-top: 23px;
+}
+
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+/*Document styles*/
+h1, h2, li {
+	text-transform: uppercase;
+}
+
+header h1, h2 {
+	font-weight: 500;
+}
+
+#main-nav ul li {
+	display: inline;
+	padding: 0 20px;
+	font-weight: 600;
+}
+
+article h1 {
+	line-height: 85px;
+	background: rgb(223, 215, 88);
+	color: rgb(253, 250, 255);
+	padding-left: 70px;
+	margin-bottom: 78px;
+	font-weight: 500;
+	font-size: 28px;
+}
+
+p {
+	line-height: 1.5;
+	padding-left: 70px;
+	margin-bottom: 30px;
+	width: 700px;
+}
+
+.left-side-bar ul li {
+	list-style: none;
+	padding-left: 60px;
+	color: rgb(255, 252, 253);
+	padding-bottom: 30px;
+	font-size: 20px;
+}
+
+.left-side-bar ul li:first-child {
+	padding-top: 85px;
+}
+
+.left-side-bar ul li:last-child {
+	padding-bottom: 70px;
+}
+
+footer i {
+	display: inline-block;
+	float: right;
+	padding: 7px;
+}
+
+footer i:first-child {
+	margin-right: 25px;
+}
+
+
